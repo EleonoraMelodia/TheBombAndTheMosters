@@ -14,10 +14,10 @@ const Player = () => {
   return (
     <section id="player">
       <h2>Welcome {playerName ?? "unknown identity"}</h2>
-      <p>
-        <input ref={playerValue} type="text" />
+      <div>
+        <input id="playerInput" ref={playerValue} type="text" />
         <button onClick={handleSetPlayer}>Set Name</button>
-      </p>
+      </div>
     </section>
   );
 }

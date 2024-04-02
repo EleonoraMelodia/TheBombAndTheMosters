@@ -51,8 +51,16 @@ header p {
   color: #c6f4f2;
 }
 
+
+
 #player {
+  margin-right: 20px;
   text-align: center;
+}
+
+#playerInput{
+  margin-right: 2rem;
+  padding: 2rem;
 }
 
 #player h2 {
@@ -161,6 +169,7 @@ header p {
   display: flex;
   gap: 2rem;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -168,11 +177,12 @@ header p {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width: 36rem;
+  width: 100%;
 }
 
 .storyCards {
   display: flex;
+  padding: 6rem;
   gap: 3rem;
 }
 
